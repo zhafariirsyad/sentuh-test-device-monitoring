@@ -9,7 +9,6 @@ This project developed using Laravel 12 + Reverb that keeps track of device avai
 - Automatic offline detection when a heartbeat timeout occurs (no scheduler needed—uses delayed queue jobs).
 - Live status dashboard at `/` that receives updates without hot reload.
 
-
 ### Required environment variables
 `BROADCAST_CONNECTION` is pre-configured for Reverb. Adjust these if necessary:
 
@@ -74,3 +73,6 @@ Flags:
 - `--count` number of pings to send (0 = infinite).
 - `--disconnect` will call the disconnect endpoint at the end.
 - Provide `--name` once to auto-create the device if it doesn’t exist.
+
+## Demo Video
+[Google Drive](https://drive.google.com/drive/folders/1rldroOQgWn4gi_YTf8e8WZYPsSeTK_1v?usp=sharing)
